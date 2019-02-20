@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Scratch]">
+  <listeners>
+    <listener class-name="com.test.project1.ScratchListener"/>
+  </listeners>
+  <test name="sampleTest(failed)">
+    <classes>
+      <class name="com.test.project1.ScratchThree">
+        <methods>
+          <include name="intializeDriver"/>
+          <include name="gpage"/>
+        </methods>
+      </class> <!-- com.test.project1.ScratchThree -->
+    </classes>
+  </test> <!-- sampleTest(failed) -->
+</suite> <!-- Failed suite [Scratch] -->
